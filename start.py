@@ -13,7 +13,7 @@ def cli():
     sock = socket.socket()
 
     port = 8800
-    host = '127.0.0.1'
+    host = '100.72.184.135'
 
     sock.connect((host, port))
     sock.send(''.encode())
