@@ -12,8 +12,8 @@ def cli():
 
     sock = socket.socket()
 
-    port = 8800
-    host = '100.72.184.135'
+    port = 15384
+    host = 'tcp://7.tcp.eu.ngrok.io'
 
     sock.connect((host, port))
     sock.send(''.encode())
